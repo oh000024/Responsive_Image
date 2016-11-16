@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 html,body{
 	margin: 0 auto;
 }
@@ -30,25 +31,18 @@ html,body{
 	margin: 5px;
 }
 
+/*
 picture {
 	max-width: 90%;
 }
+*/
 
 img {
 	max-width: 90%;
 	margin: 0 auto;
 	display: block;
-	box-shadow: 2px 2px 4px #333;
+	box-shadow: 2px 2px 4px #333;	
 }
-
-/*
-@media screen and (min-width:599px) {
-	.gallery li {
-		float: left;
-		width: 50%;
-	}
-}
-*/
 
 @media screen and (min-width:600px) and (max-width:1199px) {
 	.gallery li {
