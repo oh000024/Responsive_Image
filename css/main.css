@@ -3,12 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
-html,
-body {
-
+html,body{
+	margin: 0 auto;
 }
-
 .wrapper {
 	width: 100%;
 	background-color: #f4f4f4;
@@ -18,9 +15,10 @@ body {
 
 .gallery {
 	width: 90%;
-	margin: 1rem auto;
+	margin: 0 auto;
 	list-style: none;
 	overflow: hidden;
+	
 }
 .gallery li {
 	float: left;
@@ -29,11 +27,13 @@ body {
 	background-color: #bada55;
 	box-shadow: 1px 1px 2px #333;
 	padding: 1rem;
-	margin: 4px;
+	margin: 5px;
 }
-picture{
+
+picture {
 	max-width: 90%;
 }
+
 img {
 	max-width: 90%;
 	margin: 0 auto;
@@ -41,15 +41,16 @@ img {
 	box-shadow: 2px 2px 4px #333;
 }
 
+/*
 @media screen and (min-width:599px) {
 	.gallery li {
 		float: left;
 		width: 50%;
 	}
 }
+*/
 
 @media screen and (min-width:600px) and (max-width:1199px) {
-
 	.gallery li {
 		float: left;
 		width: 48%;
@@ -57,7 +58,6 @@ img {
 }
 
 @media screen and (min-width:1200px) {
-
 	.gallery li {
 		float: left;
 		width: 24%;
